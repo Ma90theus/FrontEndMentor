@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white:hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+    --font-project: 15px;
+    --bigShoulderFont: 'Big Shoulders Display', cursive;
+    --lexendDecoFont: 'Lexend Deca', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--transparent-white);
+    font-family: var(--lexendDecoFont);
+    color: var(--transparent-white);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    max-width: 276px;
+    height: 450px;
+    padding: 42px;
+    position: relative;
+}
+.content:nth-child(1){
+    background-color: var(--bright-orange);
+    border-radius: 10px 0px 0px 10px;
+}
+.content:nth-child(2){
+    background-color: var(--dark-cyan);
+}
+.content:nth-child(3){
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--very-dark-cyan);
+}
+img{
+    margin-bottom: 46px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--bigShoulderFont);
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+a{
+    position: absolute;
+    bottom: 40px;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 0.9rem;
+    background-color: var(--transparent-white);
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+.content:nth-child(1) a{
+    
+    color: var(--bright-orange);
+}
+.content:nth-child(2) a{
+    color: var(--dark-cyan);
+}
+.content:nth-child(3) a{
+    color: var(--very-dark-cyan);
+}
+/*Hover States*/
+.content:nth-child(1) a:hover{
+    background-color: var(--bright-orange);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+}
+.content:nth-child(2) a:hover{
+    background-color: var(--dark-cyan);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+}
+.content:nth-child(3) a:hover{
+    color: var(--transparent-white);
+    background-color: var(--very-dark-cyan);
+    border: 2px solid var(--transparent-white);
+}
+
+/*Responsivity*/
+@media only screen and (max-width:844px){
+    body{
+        display: flex;
+        width: 100%;
+        overflow: scroll;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    main{
+        padding: 50px;
+        flex-direction: column;
+    }
+    .content:nth-child(1){
+        background-color: var(--bright-orange);
+        border-radius: 10px 10px 0px 0px;
+    }
+    .content:nth-child(2){
+        background-color: var(--dark-cyan);
+    }
+    .content:nth-child(3){
+        border-radius: 0px 0px 10px 10px;
+        background-color: var(--very-dark-cyan);
+    }
+    p{
+        font-size: 0.9rem;
+    }
+}
