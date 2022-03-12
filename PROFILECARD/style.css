@@ -15,13 +15,14 @@
 }
 body{
     position: relative;
-    width: 375px;
+    width: 844px;
     height: 100vh;
     font-size:var(--fontSite);
     font-family: var(--fontStyleSite);
     display: flex;
     flex-wrap: nowrap;
     background-color: var(--Dark-cyan);
+    overflow: scroll;
 }
 main{
     display: flex;
@@ -113,12 +114,13 @@ footer a{
     text-decoration: none;
 }
 
-@media screen and (min-width:376px){
+@media screen and (min-width:845px){
     body{
         width: 1440px;
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
     }
     main{
         display: flex;
