@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --fontSite:18px;
+    --fontStyleSite:'Kumbh Sans', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 375px;
+    height: 100vh;
+    font-size:var(--fontSite);
+    font-family: var(--fontStyleSite);
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--Dark-cyan);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color:#fff;
+    color: var(--Very-dark-desaturated-blue);
+}
+.bg-card{
+    border-radius: 15px 15px 0px 0px;
+}
+.user-picture{
+    max-width: 100%;
+    position: absolute;
+    top: 85px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.personal-information{
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.personal-priority{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personal-information h1{
+    margin: 5px;
+    font-size: 1.2rem;
+}
+.personal-information .age{
+    font-size: 1.2rem;
+}
+.personal-information p{
+    margin: 5px;
+    font-size: 0.9rem;
+}
+nav{
+    height: 1px;
+    width: 100%;
+    background-color: var(--Dark-gray);
+
+}
+.flex-contents{
+    display: flex;
+    list-style-type: none;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex-contents li{
+    padding: 0 15px;
+    justify-self: baseline;
+    text-align: center;
+    margin: 9px;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+}
+.flex-contents li h1{
+    font-weight: 700;
+}
+.flex-contents li p{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+footer{
+    position: absolute;
+    text-align: center;
+    bottom:10px;
+    width: 100%;
+    font-size: 1rem;
+
+}
+footer a{
+    text-decoration: none;
+}
+
+@media screen and (min-width:376px){
+    body{
+        width: 1440px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
