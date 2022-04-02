@@ -115,6 +115,7 @@ img{
         border-radius: 10px 10px 0px 0px;
     }
     .attribution{
+        padding-top: 10px;
         text-align: center;
     }
 }
