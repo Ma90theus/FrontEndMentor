@@ -23,7 +23,6 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-## Where to find everything
-
 ## Sharing your solution
+- You can find my solution here : https://tender-wilson-15462c.netlify.app
 
