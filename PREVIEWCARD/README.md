@@ -4,7 +4,7 @@
 
 ## Solution :vulcan_salute:
 - You can find my solution here : https://celebrated-chebakia-f03724.netlify.app
-- 
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
