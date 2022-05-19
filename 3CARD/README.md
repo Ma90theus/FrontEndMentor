@@ -2,7 +2,7 @@
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Solution
+## Solution :vulcan_salute:
 - You can find my solution here : https://tender-wilson-15462c.netlify.app
 
 ## Welcome! 👋
