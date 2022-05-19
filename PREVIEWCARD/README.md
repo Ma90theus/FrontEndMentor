@@ -3,7 +3,7 @@
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Solution :vulcan_salute:
-- You can find my solution here : https://calm-maamoul-5e91f6.netlify.app
+- You can find my solution here : https://celebrated-chebakia-f03724.netlify.app
 - 
 ## Welcome! 👋
 
