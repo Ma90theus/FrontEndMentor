@@ -3,7 +3,7 @@
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
 ## Solution :vulcan_salute:
-- You can find my solution here : https://tender-wilson-15462c.netlify.app
+- You can find my solution here : https://calm-maamoul-5e91f6.netlify.app
 
 ## Welcome! 👋
 
