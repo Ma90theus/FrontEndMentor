@@ -3,7 +3,7 @@
 ![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 
 ## Solution :vulcan_salute:
-- You can find my solution here : https://celebrated-chebakia-f03724.netlify.app
+- You can find my solution here : https://fervent-banach-824d1a.netlify.app
 
 ## Welcome! 👋
 
